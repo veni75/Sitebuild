@@ -1,0 +1,426 @@
+/* HEADER */
+.btn-lilac{
+    background-color: rgba(142,85,251,1);
+    color: bisque;
+}
+
+.btn-lilac:hover{
+    background-color: rgb(105, 24, 255);  
+    color: bisque;  
+}
+
+.btn-font-size{
+    font-size: 0.8rem;
+}
+
+/* Our Approach */
+.whole-page {
+    width: 100%;
+}
+
+.scroll{
+    height: 20vw;
+    width: 40vw;    
+    overflow: auto;
+    
+}
+.icon-transparent{    
+    color: transparent;
+    background-clip:text;
+    -webkit-background-clip: text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+}
+
+.card{
+    border: 0;
+}
+
+.bg{    
+    border-radius: 99em;
+    color: rgb(255, 255, 255);
+    display: inline-block;   
+    height: 4.2rem;
+    width: 4.2rem; 
+}
+
+.bg11{
+    background: linear-gradient(135deg, rgb(241, 148, 76) , rgb(238, 191, 130));    
+}
+
+.bg12{
+    background: linear-gradient(135deg, rgba(19,204,214,1), rgba(14,222,202,1));    
+}
+
+.bg13{
+    background: linear-gradient(135deg, rgba(159,99,249,1), rgb(247, 202, 244));    
+}
+
+.hatterpotty{ 
+    background-image: url("../assets/images/kispontok.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;    
+}
+
+/* Attractiv Animations */
+.bg-lilac{
+    background-color: rgba(248,242,254,1);    
+}
+
+.redArrow{
+    position: relative;
+    left: 3rem;
+    top: 10rem;
+}
+
+.greenShape{
+    position: relative;
+    left: 3rem;
+    top: 31rem;
+}
+
+.bg2{    
+    border-radius: 10px;
+    color: white;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;    
+}
+
+.bg21{
+    background: linear-gradient(135deg,rgba(159,104,249,1), rgba(237,179,220,1)); 
+}
+
+.bg22{
+    background: linear-gradient(135deg, rgba(254,100,188,1), rgba(242,203,228,1));    
+}
+
+.bg23{
+    background: linear-gradient(135deg, rgba(255,109,146,1), rgba(252,231,240,1));    
+}
+
+.bg24{
+    background: linear-gradient(135deg, rgba(80,201,196,1), rgba(192,250,241,1));    
+}
+
+.progress{
+    height: 0.2rem;
+}
+
+.bg-lilac-button{
+    background-color: rgba(238, 221, 253, 0.6);
+    
+}
+.text-lilac{
+    color: rgba(142,85,251,1) !important;
+}
+
+.rectangle{
+    background-color: rgba(191,254,243,1);
+    border: 12px solid rgba(243,238,246,1);    
+    height: 80vw;
+    left: 1rem;        
+    position: absolute;
+    top: 1rem;    
+    width: 80vw;
+}
+
+.rectangle-shadow{
+    background: linear-gradient(215deg, rgba(191,254,243,1), rgba(134,96,209,1));   
+    height: 80vw;
+    margin-top: 2rem;
+    position: relative;
+    width: 80vw;
+}
+
+@media only screen and (min-width: 992px){
+    .rectangle{           
+        height: 34vw;        
+        width: 34vw;
+    }
+    .rectangle-shadow{        
+        height: 34vw;
+        margin: -3rem 0 0 2rem;;
+        width: 34vw;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .rectangle{           
+        height: 30rem;        
+        width: 30rem;
+    }
+    .rectangle-shadow{        
+        height: 30rem;
+        margin: -5rem 0 0 2rem;;
+        width: 30rem;
+    }
+}
+
+/* Check out ..*/
+.header-height{
+    height: 8rem;
+}
+
+.bg-lilac-header{
+    background: linear-gradient(to right, rgba(149,177,250,1), rgba(141,86,252,1));
+}
+
+.height80{
+    height: 80vh;
+}
+
+.bg-image{
+    background-color: black;
+    background-image: url("../assets/images/Ellipse_lilac.png");
+    background-repeat: no-repeat;
+    background-position: 10% 50%;     
+    height: 80vh;
+}
+
+.ring{    
+    display: none;    
+}
+
+@media only screen and (min-width: 992px){
+    .ring{        
+        border: 8px solid rgb(255, 209, 183);
+        display: inline-block;
+        border-radius: 50em;
+        padding: 0.8rem;
+        position: relative;
+        right: 0.3rem;
+        top: 40rem;         
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .ring{            
+        right: 0.5rem;
+        top: 34rem;         
+    }
+}
+
+/* Featured works */
+.rectangle-gray{
+    background-color: rgba(240,239,237,1);      
+    height: 20vw;    
+    width: 20vw;
+}
+
+.rectangle-gray-dark{
+    background-color: rgba(231,231,231,1);        
+    height: 20vw;    
+    width: 20vw;
+}
+
+.rectangle-gray:hover, .rectangle-gray-dark:hover{
+    background-color: rgba(188,164,242,1);    
+}
+
+.border-gray{
+    border: 1px solid rgba(240,239,237,1);
+    
+}
+
+.border-gray-dark{
+    border: 1px solid rgba(231,231,231,1);
+}
+
+.hover-text{
+    color: rgba(240,239,237,1);
+}
+
+.hover-text2{
+    color: rgba(231,231,231,1);
+}
+
+.rectangle-gray:hover+div, .rectangle-gray-dark:hover+div{
+    display: block;    
+}
+
+.rectangleImage{
+    height: 65vw;
+    width: 65vw;
+}
+
+@media only screen and (min-width: 992px){
+    .rectangle2{                     
+        height: 25rem;  
+        margin: 1rem;  
+        width: 25rem;
+    }
+
+    .rectangleImage{
+        height: 25rem;
+        width: 25rem;
+    }
+}
+
+.rectangle01{
+    background-color: rgba(239,136,254,1);     
+    padding: 5rem 2rem;
+    height: 14rem;
+    width: 7rem;
+}
+
+.rectangle02{
+    background-color:rgba(0,215,207,1);     
+    padding: 5rem 2rem;
+    height: 14rem;
+    width: 7rem;
+}
+
+.rectangle03{
+    background-color:rgba(241,183,110,1);     
+    padding: 5rem 2rem;
+    height: 14rem;
+    width: 7rem;
+}
+
+.rectangle04{
+    background-color: rgba(90,196,254,1); 
+    padding: 5rem 2rem;
+    height: 14rem;
+    width: 7rem;
+}
+
+.bg-lilac-dark{
+    background-color: rgba(141,91,252,1);
+}
+
+.header-color{    
+    color: #ffe4c4;
+}
+
+.ring2{    
+    display: none;    
+}
+
+@media only screen and (min-width: 992px){
+    .ring2{        
+    border: 6px solid rgb(252, 148, 122);
+    display: inline-block;
+    border-radius: 50em;
+    padding: 0.5rem;
+    position: relative;
+    left: 5rem;
+    top: 27rem;         
+    }
+}
+
+/* What our customers... */
+.marginTop{
+    margin-top: 12rem;
+}
+
+.points{
+    width: 16vw;
+}
+
+@media only screen and (min-width: 992px){
+    .points{
+        width: 16vw;
+    }
+}
+
+.lilacArrowLeft{
+    position: relative;
+    left: 10rem;
+    top: -1rem;
+}
+
+@media only screen and (min-width: 1200px){
+    .lilacArrowLeft{        
+        left: 12rem;        
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .lilacArrowLeft{        
+        left: 15rem;        
+    }
+}
+
+.lilacArrowRight{
+    position: relative;
+    left: -1.2rem;
+    top: 1.5rem;
+}
+
+.bg-quote{
+    background-image: url("../assets/images/icon1X.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;  
+}
+
+/* Strength in numbers workspace */
+.bg-houses{    
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    opacity: 0.2;
+    position: absolute;    
+    z-index: -1;
+}
+
+@media only screen and (min-width: 1200px){
+    .bg-houses{    
+        left: 18vw;                 
+    }    
+}
+
+.bg-houses2{    
+    bottom: 1rem;     
+    filter:grayscale(80%);
+    opacity: 0.1;
+    max-width: 100%;
+    position: absolute;    
+    z-index: 1;
+}
+
+.circle{    
+    border-radius: 99em;
+    height: 4rem;
+    display: inline-block;
+    margin-top: -4rem;   
+    width: 4rem;        
+}
+
+.circle1{        
+    background-color: rgba(243,239,254,1);    
+}
+
+.circle2{       
+    background-color: rgba(255,243,247,1);    
+}
+
+.circle3{        
+    background-color: rgba(255,243,235,1);    
+}
+
+.circle4{        
+    background-color: rgba(242,255,246,1);    
+}
+
+.circle5{    
+    border-radius: 99em;
+    height: 4.5rem;     
+    width: 4.5rem;        
+}
+
+.zIndex{
+    z-index: 2;
+}
+
+.footerLink{
+    color: rgb(0, 0, 0);    
+}
+
+.footerLink:hover{
+    color: rgb(105, 24, 255);    
+}
